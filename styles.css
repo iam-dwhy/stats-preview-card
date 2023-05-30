@@ -126,9 +126,6 @@ body {
   .image{
     height: 40vh;
   }
-  .image img{
-    border-radius: 12px 12px 0px 0px;
-  }
   .image::before{
     border-radius: 12px 12px 0px 0px;
   }
@@ -147,10 +144,15 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-  /* .image img{
+  .image{
     height: 30vh;
+    background-size: contain;
+    border-radius: 12px 12px 0px 0px;
   }
   .image::before{
     height: 30vh;
-  } */
+  }
+  .text{
+    padding: 20px;
+  }
 }
